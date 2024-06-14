@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+#commentary-page-align {
+    display: flex;
+    justify-content: center;
+}
+
+.commentary-page {
+    width: 90%;
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    cursor:default;
+}
+
+.the-movie {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-rate-session {
+    display: grid;
+    justify-content: center;
+}
+
+#movie-name {
+    color: #d21617;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: .2s;
+}
+
+#movie-name:hover {
+    scale: 1.01;
+}
+
+#critic-rate {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.commentaries {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#rate {
+    margin-left: 10px;
+}
+
+.own-commentary {
+    display: grid;
+    justify-content: center;
+}
+
+.declaration {
+    margin-bottom: 15px;
+}
+
+#commentary-block {
+    width: 85%;
+    margin-bottom: 10px;
+    max-height: 600px;
+    min-height: 40px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    resize: none;
+    overflow: hidden;
+    background-color: black;
+    border: 2px solid aliceblue;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    color: aliceblue;
+}
+
+#commentary-block:focus {
+    outline: none;
+}
+
+#commentary-buttom {
+    align-items: center;
+    width: 20%;
+    padding: 4px;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+    color: #d21617;
+    background-color: black;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    transition: .3s;
+    cursor: pointer;
+}
+
+#commentary-buttom:hover {
+    color: aliceblue;
+    background-color: #d21617;
+    border: 1px solid aliceblue;
+    scale: 1.05;
+    padding: 4px;
+}

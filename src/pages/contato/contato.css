@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.contact-page {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+#contact-declaration {
+    color: aliceblue;
+}
+
+.contact-form {
+    display: grid;
+    margin: 50px 0 50px 0;
+}
+
+.input-contact {
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    margin: 2px 0 3px 0;
+    width: 60%;
+    height: 20px;
+    border-bottom: 2px solid aliceblue ;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.input-contact:focus {
+    outline: none;
+}
+
+#contact-button {
+    align-items: center;
+    width: 20%;
+    padding: 4px;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+    color: #d21617;
+    background-color: black;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    transition: .3s;
+    cursor: pointer;
+}
+
+#contact-button:hover {
+    color: aliceblue;
+    background-color: #d21617;
+    border: 1px solid aliceblue;
+    scale: 1.05;
+    padding: 4px;
+}
+
+@media(max-width: 640px) {
+    .contact-page {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+}
+
+@media(max-width: 572px) {
+    .contact-page {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #contact-div {
+        width: 90%;
+
+    }
+
+    #loc-contact {
+        width: 60%;
+    }
+}

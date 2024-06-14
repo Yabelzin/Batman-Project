@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #000;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdan Thmor Pro';
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://i.redd.it/bhej5atgnr081.jpg')
+}
+
+.banner-2 {
+    background-image: url('https://media1.popsugar-assets.com/files/thumbor/GjzhYkkf4yjUslrGK5WLGmwczQo/285x440:1801x1956/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2022/03/07/929/n/1922564/210ffb61622676b4081ff0.17419852_/i/zoe-kravitz-catwoman-costume-batman.jpg')
+}
+
+.banner-3 {
+    background-image: url('https://i.redd.it/r96po045tlu81.png');
+}
+
+@media (max-width: 662px) {
+
+    .actor-cards-container {
+        display: flex;
+    }
+
+    .cards-content {
+        width: 60%;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+        column-gap: 40px;
+    }
+
+    .card {
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+        background-position: 50% 50%;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 1s;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 0 0 20px 10px;
+        color: #fff;
+        font-size: 17px;
+        font-family: 'Kdan Thmor Pro';
+        margin: 20px 0 10px 0;
+    }
+    
+}
